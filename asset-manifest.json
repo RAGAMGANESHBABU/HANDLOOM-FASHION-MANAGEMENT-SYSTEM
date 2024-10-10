@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RAGAMGANESHBABU/HANDLOOM-FASHION-MANAGEMENT-SYSTEM.git/static/css/main.08d63a12.css",
-    "main.js": "/RAGAMGANESHBABU/HANDLOOM-FASHION-MANAGEMENT-SYSTEM.git/static/js/main.297af715.js",
-    "static/js/453.94cfd3fb.chunk.js": "/RAGAMGANESHBABU/HANDLOOM-FASHION-MANAGEMENT-SYSTEM.git/static/js/453.94cfd3fb.chunk.js",
-    "index.html": "/RAGAMGANESHBABU/HANDLOOM-FASHION-MANAGEMENT-SYSTEM.git/index.html",
-    "main.08d63a12.css.map": "/RAGAMGANESHBABU/HANDLOOM-FASHION-MANAGEMENT-SYSTEM.git/static/css/main.08d63a12.css.map",
-    "main.297af715.js.map": "/RAGAMGANESHBABU/HANDLOOM-FASHION-MANAGEMENT-SYSTEM.git/static/js/main.297af715.js.map",
-    "453.94cfd3fb.chunk.js.map": "/RAGAMGANESHBABU/HANDLOOM-FASHION-MANAGEMENT-SYSTEM.git/static/js/453.94cfd3fb.chunk.js.map"
+    "main.css": "/HANDLOOM-FASHION-MANAGEMENT-SYSTEM/static/css/main.08d63a12.css",
+    "main.js": "/HANDLOOM-FASHION-MANAGEMENT-SYSTEM/static/js/main.40a416c0.js",
+    "static/js/453.94cfd3fb.chunk.js": "/HANDLOOM-FASHION-MANAGEMENT-SYSTEM/static/js/453.94cfd3fb.chunk.js",
+    "index.html": "/HANDLOOM-FASHION-MANAGEMENT-SYSTEM/index.html",
+    "main.08d63a12.css.map": "/HANDLOOM-FASHION-MANAGEMENT-SYSTEM/static/css/main.08d63a12.css.map",
+    "main.40a416c0.js.map": "/HANDLOOM-FASHION-MANAGEMENT-SYSTEM/static/js/main.40a416c0.js.map",
+    "453.94cfd3fb.chunk.js.map": "/HANDLOOM-FASHION-MANAGEMENT-SYSTEM/static/js/453.94cfd3fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08d63a12.css",
-    "static/js/main.297af715.js"
+    "static/js/main.40a416c0.js"
   ]
 }

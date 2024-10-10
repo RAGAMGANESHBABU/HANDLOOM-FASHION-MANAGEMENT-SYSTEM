@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import AdminDashboard from './components/AdminDashboard'; 
+import ArtisanDashboard from './components/ArtisanDashboard'; 
+import BuyerDashboard from './components/BuyerDashboard'; 
+import MarketingSpecialistDashboard from './components/MarketingSpecialistDashboard'; // Import the new Marketing Specialist Dashboard
+import Login from './components/Login';
+import NavBar from './components/NavBar';
 
 function App() {
+  const location = useLocation();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* Conditionally render the NavBar only if the current route is not the login page */}
+      {location.pathname !== '/' && <NavBar />}
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/artisan" element={<ArtisanDashboard />} />
+        <Route path="/buyer" element={<BuyerDashboard />} />
+        <Route path="/marketing" element={<MarketingSpecialistDashboard />} /> {/* Updated to use MarketingSpecialistDashboard */}
+      </Routes>
+    </>
   );
 }
 
-export default App;
+function AppWrapper() {
+  return (
+    <Router>
+      <App />
+    </Router>
+  );
+}
+
+export default AppWrapper;
